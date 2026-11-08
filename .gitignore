@@ -30,6 +30,9 @@ secrets/
 tmp/
 temp/
 
+# Local empty scratch file
+/sanjiguan
+
 # Dependencies
 node_modules/
 bower_components/
