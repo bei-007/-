@@ -1,0 +1,75 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+*.local.*
+*.pem
+*.key
+secrets/
+
+# Logs, temporary files, and caches
+*.log
+*.tmp
+*.temp
+*.bak
+.cache/
+tmp/
+temp/
+
+# Dependencies
+node_modules/
+bower_components/
+.pnpm-store/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.eggs/
+*.egg-info/
+
+# Test and tool caches
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Common build outputs
+build/
+dist/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.pdb
+*.ilk
+*.class
+
+# IDE user-specific project files
+*.suo
+*.user
+*.userosscache
+*.uvguix.*
